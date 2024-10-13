@@ -30,7 +30,7 @@ function HomePage() {
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Control
                   type="text"
-                  placeholder="Enter username to list and create tickets"
+                  placeholder="Enter username to list and create your tickets"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                 />
